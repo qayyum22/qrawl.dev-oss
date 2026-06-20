@@ -1,0 +1,20 @@
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.turbo/
+.pnpm-store/
+
+.env
+.env.local
+.env.*.local
+
+coverage/
+*.log
+.DS_Store
+
+# Python (packages/python)
+__pycache__/
+*.egg-info/
+.venv/
+*.pyc
