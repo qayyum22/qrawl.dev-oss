@@ -60,15 +60,15 @@ importers:
 
   packages/langchain:
     dependencies:
+      '@qrawl-dev/sdk':
+        specifier: workspace:*
+        version: link:../sdk
       '@qrawl-dev/types':
         specifier: workspace:*
         version: link:../types
       langchain:
         specifier: '>=0.2.0'
         version: 1.5.0(@langchain/core@0.2.36(openai@4.104.0(encoding@0.1.13)(ws@8.21.0)(zod@3.25.76)))(@opentelemetry/api@1.9.1)(openai@4.104.0(encoding@0.1.13)(ws@8.21.0)(zod@3.25.76))(ws@8.21.0)(zod-to-json-schema@3.25.2(zod@3.25.76))
-      qrawl:
-        specifier: workspace:*
-        version: link:../sdk
     devDependencies:
       '@langchain/core':
         specifier: ^0.2.0
@@ -82,12 +82,12 @@ importers:
 
   packages/llamaindex:
     dependencies:
+      '@qrawl-dev/sdk':
+        specifier: workspace:*
+        version: link:../sdk
       '@qrawl-dev/types':
         specifier: workspace:*
         version: link:../types
-      qrawl:
-        specifier: workspace:*
-        version: link:../sdk
     devDependencies:
       llamaindex:
         specifier: ^0.3.0
@@ -104,12 +104,12 @@ importers:
       '@modelcontextprotocol/sdk':
         specifier: ^1.0.0
         version: 1.29.0(zod@3.25.76)
+      '@qrawl-dev/sdk':
+        specifier: workspace:*
+        version: link:../sdk
       '@qrawl-dev/types':
         specifier: workspace:*
         version: link:../types
-      qrawl:
-        specifier: workspace:*
-        version: link:../sdk
       qrawl-core:
         specifier: workspace:*
         version: link:../core
@@ -129,12 +129,12 @@ importers:
 
   packages/openai-tools:
     dependencies:
+      '@qrawl-dev/sdk':
+        specifier: workspace:*
+        version: link:../sdk
       '@qrawl-dev/types':
         specifier: workspace:*
         version: link:../types
-      qrawl:
-        specifier: workspace:*
-        version: link:../sdk
     devDependencies:
       openai:
         specifier: ^4.50.0

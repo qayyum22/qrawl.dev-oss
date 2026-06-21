@@ -23,14 +23,14 @@ export async function scrapePage(
     throw new QrawlError(
       'CLOUD_FEATURE',
       'jsRendering requires the qrawl cloud API (api.qrawl.dev). ' +
-      'Use `import { QrawlClient } from "qrawl"` with an API key.',
+      'Use `import { QrawlClient } from "@qrawl-dev/sdk"` with an API key.',
     )
   }
   if (options.piiFilter) {
     throw new QrawlError(
       'CLOUD_FEATURE',
       'piiFilter requires the qrawl cloud API. ' +
-      'Use `import { QrawlClient } from "qrawl"` with an API key.',
+      'Use `import { QrawlClient } from "@qrawl-dev/sdk"` with an API key.',
     )
   }
 

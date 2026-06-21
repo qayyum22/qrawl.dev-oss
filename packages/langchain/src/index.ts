@@ -29,7 +29,7 @@
 import { BaseDocumentLoader }   from '@langchain/core/document_loaders/base'
 import { Document }             from '@langchain/core/documents'
 import { Tool }                 from '@langchain/core/tools'
-import { QrawlClient }          from 'qrawl'
+import { QrawlClient }          from '@qrawl-dev/sdk'
 import type {
   CrawlOptions,
   ScrapeOptions,

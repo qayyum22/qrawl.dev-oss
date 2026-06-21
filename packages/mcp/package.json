@@ -1,6 +1,6 @@
 {
   "name": "qrawl-mcp",
-  "version": "0.1.0-alpha.0",
+  "version": "0.1.0-alpha.1",
   "description": "MCP server for qrawl — connect Claude, Cursor, Windsurf, VS Code to live web data",
   "type": "module",
   "main": "./dist/index.js",
@@ -22,7 +22,7 @@
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
     "@qrawl-dev/types": "workspace:*",
-    "qrawl": "workspace:*",
+    "@qrawl-dev/sdk": "workspace:*",
     "qrawl-core": "workspace:*",
     "zod": "^3.23.0"
   },

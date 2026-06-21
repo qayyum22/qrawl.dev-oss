@@ -22,7 +22,7 @@
  * ```
  */
 
-import { QrawlClient }   from 'qrawl'
+import { QrawlClient }   from '@qrawl-dev/sdk'
 import type {
   CrawlOptions,
   ScrapeOptions,

@@ -6,7 +6,7 @@
  *
  * @example
  * ```ts
- * import { QrawlClient } from 'qrawl'
+ * import { QrawlClient } from '@qrawl-dev/sdk'
  *
  * const client = new QrawlClient({ apiKey: 'qr-YOUR_KEY' })
  *

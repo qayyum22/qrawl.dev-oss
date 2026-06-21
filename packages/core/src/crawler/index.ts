@@ -31,7 +31,7 @@ export async function crawl(
       throw new QrawlError(
         'CLOUD_FEATURE',
         `"${key}" is a cloud-only feature. ` +
-        'Use `import { QrawlClient } from "qrawl"` with an API key at api.qrawl.dev.',
+        'Use `import { QrawlClient } from "@qrawl-dev/sdk"` with an API key at api.qrawl.dev.',
       )
     }
   }

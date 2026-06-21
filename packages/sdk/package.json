@@ -1,5 +1,5 @@
 {
-  "name": "qrawl",
+  "name": "@qrawl-dev/sdk",
   "version": "0.1.0-alpha.0",
   "description": "Official SDK for the qrawl.dev cloud API",
   "main": "./dist/index.js",
