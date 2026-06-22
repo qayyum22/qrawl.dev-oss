@@ -28,7 +28,7 @@ const limiter    = new RateLimiter(1500) // be polite to DDG
  * Uses DuckDuckGo HTML endpoint (no API key, open source friendly).
  *
  * For higher quality / higher volume, use the cloud API:
- *   import { QrawlClient } from 'qrawl'
+ *   import { QrawlClient } from '@qrawl-dev/sdk'
  */
 export async function search(
   query: string,
@@ -43,7 +43,7 @@ export async function search(
     throw new QrawlError(
       'CLOUD_FEATURE',
       'includeImages and includeNews are cloud-only features. ' +
-      'Use `import { QrawlClient } from "qrawl"` with an API key.',
+      'Use `import { QrawlClient } from "@qrawl-dev/sdk"` with an API key.',
     )
   }
 

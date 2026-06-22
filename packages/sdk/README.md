@@ -1,11 +1,11 @@
-# qrawl
+# @qrawl-dev/sdk
 
 Official SDK for the [qrawl.dev](https://qrawl.dev) cloud API — crawl, scrape, map, and search the web on managed infrastructure, with JS rendering, PII filtering, and webhooks.
 
 ## Install
 
 ```bash
-npm install qrawl
+npm install @qrawl-dev/sdk
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install qrawl
 Get an API key at [qrawl.dev/dashboard](https://qrawl.dev/dashboard).
 
 ```ts
-import { QrawlClient } from 'qrawl'
+import { QrawlClient } from '@qrawl-dev/sdk'
 
 const qrawl = new QrawlClient({ apiKey: process.env.QRAWL_API_KEY! })
 

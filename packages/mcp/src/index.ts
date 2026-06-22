@@ -44,7 +44,7 @@ import {
   McpError,
 } from '@modelcontextprotocol/sdk/types.js'
 import { z }                             from 'zod'
-import { QrawlClient }                   from 'qrawl'
+import { QrawlClient }                   from '@qrawl-dev/sdk'
 import { QrawlCore }                     from 'qrawl-core'
 
 // ── Config ────────────────────────────────────────────────────────

@@ -3,7 +3,7 @@
  *
  * Self-host this package or use the managed cloud at qrawl.dev.
  * Cloud-only features (piiFilter, scanToS, jsRendering, webhook)
- * are available via `import { QrawlClient } from 'qrawl'`.
+ * are available via `import { QrawlClient } from '@qrawl-dev/sdk'`.
  *
  * @example
  * ```ts
